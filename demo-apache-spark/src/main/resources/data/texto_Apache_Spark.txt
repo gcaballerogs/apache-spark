@@ -1,0 +1,3 @@
+Este es un ejemplo sencillo con ApacheSpark y Java
+para procesar texto desde un archivo y verificar que
+el motor de ApacheSpark es sencillo y poderoso
