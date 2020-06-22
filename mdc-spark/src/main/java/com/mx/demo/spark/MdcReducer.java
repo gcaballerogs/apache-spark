@@ -26,6 +26,12 @@ public class MdcReducer {
 	private static final Logger LOGGER = LoggerFactory.getLogger(MdcReducer.class);
 	
 	public static void main(String[] args) {
+		
+		if (args.length < 1) {
+			LOGGER.error("No se proporciono la ruta de la carpeta DATA...");
+			System.exit(1);
+		}
+		
 		LOGGER.info("DATA FOLDER = " + args[0]);
 		process(args[0]);
 	}
